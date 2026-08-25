@@ -104,16 +104,6 @@ LandChain addresses these challenges by providing:
 - Property viewing activity
 - Ownership transfer activity
 
-### 🌙 Modern Dark UI
-
-- Full-screen responsive interface
-- Dark Web3-inspired design
-- Role-specific controls
-- Property information cards
-- Activity panel
-- Wallet information
-- Responsive layout
-
 ### 🧪 Automated Testing
 
 Smart contract tests cover:
@@ -143,7 +133,7 @@ Make sure the following are installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/shubha229/Blockchain-Based-Land-Registry-Property-Ownership
 ```
 
 Navigate into the project:
@@ -449,39 +439,22 @@ For a production implementation, the hash can represent a document stored using 
 
 ---
 
-## 🖥️ Screenshots / Demo
-
-Add screenshots of your project inside a `screenshots` folder.
-
-Recommended structure:
-
-```text
-screenshots/
-├── dashboard.png
-├── authority.png
-├── property-details.png
-└── ownership-transfer.png
-```
+## 🖥️ Screenshots
 
 ### Dashboard
-
-![LandChain Dashboard](screenshots/dashboard.png)
+<img width="1600" height="807" alt="image" src="https://github.com/user-attachments/assets/bbc2a561-5a77-48e6-8d1c-772ff139b3dc" />
 
 ### Authority Dashboard
+<img width="1600" height="805" alt="image" src="https://github.com/user-attachments/assets/84594a21-a13c-4a9d-b3ad-19963cf2f796" />
 
-![Authority Dashboard](screenshots/authority.png)
+### Searching Property Details
+<img width="1600" height="802" alt="image" src="https://github.com/user-attachments/assets/825f321e-da8f-42aa-86dc-4c51c637d8b1" />
 
-### Property Details
-
-![Property Details](screenshots/property-details.png)
+### Property Owner Dashboard
+<img width="1600" height="794" alt="image" src="https://github.com/user-attachments/assets/6ff8bda6-80ee-458c-80c5-41d3c26356ba" />
 
 ### Ownership Transfer
-
-![Ownership Transfer](screenshots/ownership-transfer.png)
-
-### Demo Video
-
-[▶ Watch LandChain Demo](YOUR_VIDEO_LINK)
+<img width="1600" height="807" alt="image" src="https://github.com/user-attachments/assets/f1c4d5a6-9d51-4820-8a29-40ea50aa87ef" />
 
 ---
 
@@ -602,59 +575,6 @@ Blockchain-Land-Registry-Property-Ownership/
 
 ---
 
-## 🔗 Smart Contract Functions
-
-The `LandRegistry` smart contract provides the core property-management functionality.
-
-### Register Property
-
-```solidity
-registerProperty(
-    uint256 propertyId,
-    string propertyNumber,
-    string location,
-    uint256 area,
-    string propertyType,
-    address owner,
-    string documentHash
-)
-```
-
-### Verify Property
-
-```solidity
-verifyProperty(
-    uint256 propertyId
-)
-```
-
-### Get Property
-
-```solidity
-getProperty(
-    uint256 propertyId
-)
-```
-
-### Get Current Owner
-
-```solidity
-getCurrentOwner(
-    uint256 propertyId
-)
-```
-
-### Transfer Ownership
-
-```solidity
-transferOwnership(
-    uint256 propertyId,
-    address newOwner
-)
-```
-
----
-
 ## 🔒 Security Considerations
 
 The project implements basic smart-contract access restrictions:
@@ -671,84 +591,17 @@ The project implements basic smart-contract access restrictions:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome.
-
-### 1. Fork the Repository
-
-Create your own fork of the project.
-
-### 2. Clone Your Fork
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-```
-
-### 3. Create a Feature Branch
-
-```bash
-git checkout -b feature/your-feature
-```
-
-### 4. Make Your Changes
-
-Implement and test your changes.
-
-### 5. Commit Your Changes
-
-```bash
-git add .
-git commit -m "Add your feature"
-```
-
-### 6. Push Your Branch
-
-```bash
-git push origin feature/your-feature
-```
-
-### 7. Create a Pull Request
-
-Open a Pull Request and describe the changes you made.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
-You are free to use, modify, and distribute this project in accordance with the terms of the MIT License.
-
-If you want to apply the MIT License, create a file named:
-
-```text
-LICENSE
-```
-
-in the root directory of the project.
-
----
-
 ## 📬 Contact
 
-**Developer:** [Your Name]
+**Developer:** Shubhashree Baburaya Nayak
 
-**GitHub:** [Your GitHub Profile](https://github.com/YOUR_USERNAME)
+**GitHub:** https://github.com/shubha229/Blockchain-Based-Land-Registry-Property-Ownership
 
-**Email:** [YOUR_EMAIL@example.com](mailto:YOUR_EMAIL@example.com)
+**Email:** shubhashree.nayak9805@gmail.com
 
-**LinkedIn:** [Your LinkedIn Profile](YOUR_LINKEDIN_PROFILE)
+**LinkedIn:** https://www.linkedin.com/in/shubhashree-b-nayak/
 
 For questions, suggestions, collaboration, or feedback, feel free to reach out.
-
----
-
-## ⭐ Acknowledgements
-
-This project was developed as a blockchain/Web3 application to demonstrate decentralized property registration and ownership management using Ethereum-compatible smart contracts.
-
-The project combines smart contracts, blockchain development, wallet integration, automated testing, and a modern React-based user interface.
 
 ---
 
@@ -758,11 +611,7 @@ Possible future improvements include:
 
 - Integration with IPFS for decentralized document storage
 - Real blockchain event indexing
-- Production Ethereum or Layer-2 deployment
 - Advanced identity verification
 - Property map integration
 - Government-authority integration
 - Multi-signature property verification
-- Professional smart-contract security auditing
-
-> These features are outside the current **Option B** implementation and are listed only as possible future enhancements.
